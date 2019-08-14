@@ -6,5 +6,5 @@ def square_array(array)
     square_array.push(Math.sqrt(array[counter]))
     counter += 1
   end
-  puts square_array
+  return square_array
 end
